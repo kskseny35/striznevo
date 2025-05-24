@@ -3,9 +3,9 @@ import '../styles/TabbedPhotoGallery.css';
 
 const galleryData = {
   Интерьер: [
-    '/assets/gallery/interior1.jpg',
-    '/assets/gallery/interior2.jpg',
-    '/assets/gallery/interior3.jpg',
+    '/assets/gallery/interior1.png',
+    '/assets/gallery/interior2.png',
+    '/assets/gallery/interior3.png',
   ],
   'Детская площадка': [
     '/assets/gallery/playground1.jpg',

@@ -10,7 +10,7 @@ const rooms = [
     {
       id: 2,
       name: '3-х КОМНАТНЫЙ',
-      description: 'Больше пространства и комфорт для всей семьи.',
+      description: 'Больше и комфорт для всей семьи.',
       capacity: 4,
       price: 8000,
       photos: ['/assets/room/room2.jpg']

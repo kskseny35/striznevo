@@ -1,0 +1,58 @@
+.booking-steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 20px;
+    max-width: 960px;
+    flex-wrap: wrap;
+  }
+  
+  .step {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .circle {
+    width: 32px;
+    height: 32px;
+    background: #ccc;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    transition: background 0.3s;
+  }
+  
+  .label {
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .line {
+    width: 50px;
+    height: 2px;
+    background: #ccc;
+    position: absolute;
+    left: calc(100% + 5px);
+    top: 15px;
+  }
+  
+  .step.active .circle {
+    background: #b98b68;
+  }
+  
+  .step.completed .circle {
+    background: #2e2e2e;
+  }
+  
+  .step.completed .label {
+    color: #333;
+  }
+  

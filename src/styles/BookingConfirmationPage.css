@@ -1,0 +1,68 @@
+.confirmation-page {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  .summary {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .left, .right {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .left p {
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  thead th {
+    text-align: left;
+    background: #b98b68;
+    color: white;
+    padding: 10px;
+  }
+  
+  tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .agree {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .agree a {
+    color: #b98b68;
+    text-decoration: underline;
+  }
+  
+  .finish-btn {
+    background: #b98b68;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .finish-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  

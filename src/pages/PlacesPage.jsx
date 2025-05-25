@@ -12,10 +12,10 @@ const PlacesPage = () => {
       <PlaceSection
         title="База отдыха Y.E.S."
         images={[
-          '/assets/places/yes1.jpg',
-          '/assets/places/yes2.jpg',
-          '/assets/places/yes3.jpg',
-          '/assets/places/yes4.jpg'
+          '/assets/rec/rec_9.png',
+          '/assets/rec/rec_10.png',
+          '/assets/rec/rec_11.png',
+          '/assets/rec/rec_12.png'
         ]}
         description="Y.E.S. — центр с аквапарком, зоопарком, канатной дорогой и рестораном-музеем. Всего в 30 минутах от нас."
       />

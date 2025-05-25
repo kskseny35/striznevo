@@ -12,7 +12,7 @@ const PlacesPage = () => {
       <PlaceSection
         title="База отдыха Y.E.S."
         images={[
-          '../assets/rec_9.png',
+          'src/assets/rec_9.png',
           '../assets/rec_10.png',
           '../assets/rec_11.png',
           '../assets/rec_12.png'

@@ -7,12 +7,12 @@ const PlacesPage = () => {
   return (
     <>
       <Header />
-      <h2 style={{ textAlign: 'center', margin: '40px 0' }}>Как провести время — рекомендуем</h2>
+      <h2 style={{ textAlign: 'center', margin: '40px 0' }}>Как провести время — рекомендуем!</h2>
 
       <PlaceSection
         title="База отдыха Y.E.S."
         images={[
-          'src/assets/rec_9.png',
+          '../src/assets/rec_9.png',
           '../assets/rec_10.png',
           '../assets/rec_11.png',
           '../assets/rec_12.png'

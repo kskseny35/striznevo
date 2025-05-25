@@ -18,8 +18,8 @@ const Header = () => {
         </nav>
 
         <div className="header-contacts">
-          <a href="mailto:info@striznevo.ru">info@striznevo.ru</a>
-          <a href="tel:+79999999999">+7 (999) 999-99-99</a>
+          <a href="mailto:akvilon_35@mail.ru">akvilon_35@mail.ru</a>
+          <a href="tel:+79115136840">+7 (911) 513-68-40</a>
         </div>
       </div>
     </header>

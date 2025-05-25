@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import PlaceSection from '../components/PlaceSection';
+import rec_10.png from '../assets/rec_10.png';
 
 const PlacesPage = () => {
   return (
@@ -13,7 +14,7 @@ const PlacesPage = () => {
         title="База отдыха Y.E.S."
         images={[
           'src/assets/rec_9.png',
-          '../assets/rec_10.png',
+          rec_10.png,
           '../assets/rec_11.png',
           '../assets/rec_12.png'
         ]}

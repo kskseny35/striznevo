@@ -37,3 +37,9 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  padding: 0;  /* УДАЛИ или обнуляй */
+  font-size: 24px;
+  border-radius: 999px;
+}

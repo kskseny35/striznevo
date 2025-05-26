@@ -18,10 +18,9 @@ const Footer = () => {
           <h3>Как добраться</h3>
           <iframe
             title="Карта"
-            src="https://yandex.ru/map-widget/v1/?um=constructor%3A4595428220d8a010a33dfadaa47a978dd1d7f5482a640daaeb291090d7738a8e&amp;source=constructor"
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3A87fb90baca418f563efd4e29b41dfb70719619194a2f8635d69b152f79070c79&amp;source=constructor"
             width="100%"
             height="200"
-            frameBorder="0"
             allowFullScreen
           ></iframe>
         </div>

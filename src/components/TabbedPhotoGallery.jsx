@@ -4,17 +4,18 @@ import '../styles/TabbedPhotoGallery.css';
 const galleryData = {
   Интерьер: [
     '../assets/gallery/gallery_1.png',
-    '../assets/gallery/gallery_1.png',
-    '../assets/gallery/gallery_1.png',
+    '../assets/gallery/gallery_2.png',
+    '../assets/gallery/gallery_3.png',
   ],
   'Детская площадка': [
-    '/assets/gallery/playground1.jpg',
-    '/assets/gallery/playground2.jpg',
+    '../assets/gallery/gallery_10.png',
+    '../assets/gallery/gallery_11.png',
+    '../assets/gallery/gallery_12.png',
   ],
   Барбекю: [
-    '/assets/gallery/bbq1.jpg',
-    '/assets/gallery/bbq2.jpg',
-    '/assets/gallery/bbq3.jpg',
+    '../assets/gallery/gallery_6.png',
+    '../assets/gallery/gallery_7.png',
+    '../assets/gallery/gallery_8.png',
   ],
 };
 

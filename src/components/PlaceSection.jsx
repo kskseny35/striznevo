@@ -6,13 +6,29 @@ const PlaceSection = ({ title, images, description, bgColor = '#fff' }) => {
 
   const scroll = (direction) => {
     const scrollAmount = 320;
-    if (carouselRef.current) {
-      carouselRef.current.scrollBy({
-        left: direction === 'left' ? -scrollAmount : scrollAmount,
-        behavior: 'smooth',
-      });
+    const carousel = carouselRef.current;
+  
+    if (!carousel) return;
+  
+    const maxScroll = carousel.scrollWidth - carousel.clientWidth;
+  
+    if (direction === 'left') {
+      if (carousel.scrollLeft === 0) {
+        // Перепрыгиваем в конец
+        carousel.scrollTo({ left: maxScroll, behavior: 'smooth' });
+      } else {
+        carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+      }
+    } else {
+      if (carousel.scrollLeft >= maxScroll - 1) {
+        // Перепрыгиваем в начало
+        carousel.scrollTo({ left: 0, behavior: 'smooth' });
+      } else {
+        carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+      }
     }
   };
+  
 
   return (
     <section className="place-section" style={{ backgroundColor: bgColor }}>

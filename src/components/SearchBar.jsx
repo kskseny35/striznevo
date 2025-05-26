@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../styles/SearchBar.css';
 
 const SearchBar = () => {
@@ -6,10 +7,18 @@ const SearchBar = () => {
   const [checkOut, setCheckOut] = useState('');
   const [guests, setGuests] = useState(2);
 
+  const navigate = useNavigate();
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Поиск:', { checkIn, checkOut, guests });
-    // Здесь можно сделать навигацию или фильтрацию
+    
+    const query = new URLSearchParams({
+      checkIn,
+      checkOut,
+      guests,
+    }).toString();
+
+    navigate(`/rooms?${query}`);
   };
 
   return (

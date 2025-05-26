@@ -1,22 +1,41 @@
-.hotel-rules {
-    padding: 60px 20px;
-    background: #fff;
-    max-width: 960px;
-    margin: 0 auto;
-    text-align: left;
-  }
-  
-  .hotel-rules h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #2e2e2e;
-  }
-  
-  .hotel-rules ul {
-    list-style-type: disc;
-    padding-left: 20px;
-    color: #555;
-    font-size: 16px;
-    line-height: 1.6;
-  }
-  
+.hotel-rules-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.rule-card {
+  flex: 1 1 400px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.rule-card.left {
+  background: #b98b68;
+  color: #fff;
+}
+
+.rule-card.left ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.rule-card.left li {
+  margin-bottom: 10px;
+}
+
+.rule-card.right p {
+  margin: 10px 0;
+  color: #333;
+}
+
+.rule-card h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}

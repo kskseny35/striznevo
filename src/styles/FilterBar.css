@@ -1,37 +1,53 @@
+.filter-bar-container {
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
 .filter-bar {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    background: #fff;
-    padding: 24px;
-    border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.05);
-    max-width: 960px;
-    margin: 30px auto;
-  }
-  
-  .filter-group {
-    display: flex;
-    flex-direction: column;
-    min-width: 150px;
-    flex: 1;
-  }
-  
-  .filter-group label {
-    font-size: 14px;
-    margin-bottom: 6px;
-    color: #555;
-  }
-  
-  .filter-group input,
-  .filter-group select {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 16px;
-  }
-  
-  .promo input {
-    background-color: #fdf5ec;
-  }
-  
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.filter-block {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 140px;
+}
+
+.filter-label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.filter-block input,
+.filter-block select {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.filter-btn {
+  background-color: #b98b68;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 15px;
+  height: 42px;
+  margin-top: 22px;
+}
+
+.filter-btn:hover {
+  background-color: #a87855;
+}

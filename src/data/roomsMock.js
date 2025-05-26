@@ -5,7 +5,7 @@ const rooms = [
       description: 'Уютный номер на двоих с диваном и рабочей зоной.',
       capacity: 2,
       price: 5000,
-      photos: ['/assets/room/room1.jpg']
+      photos: ['../assets/room/room_1.png']
     },
     {
       id: 2,
@@ -13,7 +13,7 @@ const rooms = [
       description: 'Больше и комфорт для всей семьи.',
       capacity: 4,
       price: 8000,
-      photos: ['/assets/room/room2.jpg']
+      photos: ['../assets/room/room_2.png']
     },
     {
       id: 3,
@@ -21,7 +21,7 @@ const rooms = [
       description: 'Максимальный комфорт и простор.',
       capacity: 6,
       price: 12000,
-      photos: ['/assets/room/room3.jpg']
+      photos: ['../assets/room/room_3.png']
     }
   ];
   

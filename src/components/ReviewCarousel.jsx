@@ -11,13 +11,11 @@ const reviews = [
     id: 2,
     author: 'Анна Смирнова',
     text: 'Очень уютный дом! Все как на фото, даже лучше. Спасибо за гостеприимство.',
-    avatar: '/assets/user2.jpg',
   },
   {
     id: 3,
     author: 'Олег Кузнецов',
     text: 'Тихо, красиво, природа — супер. Всем советую. Особенно понравился номер Deluxe.',
-    avatar: '/assets/user3.jpg',
   },
 ];
 
@@ -32,13 +30,12 @@ const ReviewCarousel = () => {
     setIndex((prev) => (prev === reviews.length - 1 ? 0 : prev + 1));
   };
 
-  const { author, text, avatar } = reviews[index];
+  const { author, text } = reviews[index];
 
   return (
     <section className="review-carousel">
       <h2 className="section-title">Отзывы гостей</h2>
       <div className="review-card">
-        <img className="avatar" src={avatar} alt={author} />
         <blockquote>{text}</blockquote>
         <p className="author">— {author}</p>
         <div className="carousel-controls">
